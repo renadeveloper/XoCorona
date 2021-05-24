@@ -35,7 +35,7 @@ int main() {
 
 ```
 
-![](Imagens/Cenas/cena1.png.png)
+![](Imagens/Cenas/cena1.png)
 
 
 ## Desenhando o atleta
@@ -61,7 +61,7 @@ int main() {
 }
 ```
 
-![](Imagens/Cenas/cena2.png.png)
+![](Imagens/Cenas/cena2.png)
 
 
 ## Controlando o atleta
@@ -104,7 +104,7 @@ int main() {
 }
 ```
 
-![](Imagens/Cenas/cena3.png.png)
+![](Imagens/Cenas/cena3.png)
 
 
 Para verificar se o usuário pressionou alguma das teclas usamos a função `isKeyDown`, passando como parâmetro uma string composta de um espaço em branco para `Espaço`.
@@ -175,7 +175,7 @@ int main() {
 }
 ```
 
-![](Imagens/Cenas/cena4.png.png)
+![](Imagens/Cenas/cena4.png)
 
 
 Para verificar se o usuário pressionou alguma das teclas usamos duas vezes a função `isKeyDown`, passando como parâmetro uma string composta de `ArrowLeft` e outra composta por `ArrowRight`.
@@ -221,7 +221,7 @@ int main() {
 }
 ```
 
-![](Imagens/Cenas/cena5.png.png)
+![](Imagens/Cenas/cena5.png)
 
 
 ## Sendo atingido pelo vírus
