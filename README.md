@@ -5,7 +5,7 @@ title: Xô Corona
 
 # Tutorial: jogo Xô Corona
 
-**Autores**: Renata Lima Ribeiro de Sena
+**Autores**: Equipe 4
 
 **Conhecimento prévio necessário**: Estruturas de seleção (if/else), estrutura de repetição (while) e variáveis. 
 
@@ -355,5 +355,3 @@ Agora é com você! Modifique o código para que, além de vírus, possamos ter 
 ### Curiosidade
 
 É possível utilizar o conceito de vetores para dinamizar o surgimento dos vírus!!
-
-
