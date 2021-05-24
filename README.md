@@ -234,7 +234,7 @@ int main() {
   bool gameOver = false;
   
   // carregando imagens 
-  while (!fimDeJogo) {
+  while (!gameOver) {
 
     // ...
     
