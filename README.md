@@ -350,10 +350,10 @@ O delay auxilia para que os usuários possam ler o que está escrito. Pode ser a
 
 ### Exercício: A vacina
 
-Agora é com você! Modifique o código para que, além de vírus, possamos ter vacinas. Nesse caso quando o jogador pega duas vacinas -- recebe duas doses -- o jogo acaba e ele vence!!
+Agora é com você! Modifique o código para que, além de vírus, possamos ter vacinas (a imagem já consta no repositório!!). Nesse caso quando o jogador pega duas vacinas -- recebe duas doses -- o jogo acaba e ele vence!!
 
 ### Curiosidade
 
-É possível utilizar o conceito de vetores para dinamizar o surgimento dos vírus
+É possível utilizar o conceito de vetores para dinamizar o surgimento dos vírus!!
 
 
