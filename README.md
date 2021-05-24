@@ -13,7 +13,7 @@ title: Xô Corona
 
 ## Iniciando
 
-Neste tutorial você vai aprender a desenvolver um jogo com estilo de aventura chamado `Xô Corona`, cujo objetivo é guiar o <s>histórico de</s> atleta de forma que ele não seja atingido pelo vírus COVID19.
+Neste tutorial você vai aprender a desenvolver um jogo com estilo de aventura chamado `Xô Corona`, cujo objetivo é guiar o <s>histórico de</s> atleta de forma que ele não seja atingido pelo vírus SARS-CoV-2.
 
 
 ## Carregando as imagens
@@ -27,13 +27,15 @@ int main() {
   loadImage("background", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/background.png");
   loadImage("atleta", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/atleta.png");
   loadImage("background", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/virus.png");
+  waitUntilResourcesLoad();
   
   drawImage("background", 0, 0);
   
   return 0;
 }
-
 ```
+
+Usamos a função `waitUntilResourcesLoad` que aguarda até que todas as imagens sejam carregadas antes de continuar a execução do programa.
 
 ![](Imagens/Cenas/cena1.png)
 
@@ -251,9 +253,10 @@ int main() {
 
   //mensagem de fim de jogo
   clear("red");
-  drawText("O covid te pegou :(",150, 180, 40, "white");
+  drawText("O covid te pegou :(",100, 180, 40, "white");
   drawText("Esse é só um jogo mas na vida real", 130, 220, 24, "white");
   drawText("mantenha o isolamento social e espere a vacina!! ", 70, 250, 24, "white");
+  
   
   return 0;
 }
@@ -285,7 +288,7 @@ int main() {
 
   loadImage(); // ...
   
-  while (!fimDeJogo) {
+  while (!gameOver) {
     // ....
     
     // verifica colisão
@@ -328,9 +331,10 @@ int main() {
   clear("black");
   drawText("XÔ CORONA!!",190, 180, 40, "white");
   drawText("Com a barra de espaço e as setas direita e esquerda", 90, 220, 20, "white");
-  drawText("ajude o atleta a desviar do COVID19!! ", 140, 250, 20, "white");
+  drawText("ajude o atleta a desviar do vírus SARS-CoV-2!! ", 140, 250, 20, "white");
+  drawText("Pressione qualquer tecla para continuar", 180, 320, 16, "red");
   
-  delay(7000);
+  readKey()
   
   while (!gameOver) {
     //...
@@ -342,15 +346,19 @@ int main() {
 
 ![](Imagens/Cenas/cena7.png)
 
-O delay auxilia para que os usuários possam ler o que está escrito. Pode ser aumentado ou diminuído.
-
-
+Utilizamos o readKey() para que o programa espere até que qualquer letra seja pressionada para continuar o jogo.
 
 ## Aumentando a dificuldade
 
 ### Exercício: A vacina
 
-Agora é com você! Modifique o código para que, além de vírus, possamos ter vacinas (a imagem já consta no repositório!!). Nesse caso quando o jogador pega duas vacinas -- recebe duas doses -- o jogo acaba e ele vence!!
+Agora é com você! Modifique o código acrescendo vacinas no código (a imagem já consta no repositório!!).
+
+Você deve acrescer a vacina de modo que apareça uma vacina a cada 10 vírus.
+
+Ao coletar uma vacina a velocidade com a qual o vírus se move deve aumentar de -4 para -12.
+
+Ao coletar duas vacinas o jogo termina e o jogador vence o jogo!!
 
 ### Curiosidade
 

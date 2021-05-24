@@ -12,13 +12,15 @@ int main() {
   loadImage("background", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/background.png");
   loadImage("atleta", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/atleta.png");
   loadImage("virus", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/virus.png");
-  
+  waitUntilResourcesLoad();
+
   clear("black");
   drawText("XÔ CORONA!!",190, 180, 40, "white");
   drawText("Com a barra de espaço e as setas direita e esquerda", 90, 220, 20, "white");
-  drawText("ajude o atleta a desviar do COVID19!! ", 140, 250, 20, "white");
-  
-  delay(7000);
+  drawText("ajude o atleta a desviar do vírus SARS-CoV-2!! ", 140, 250, 20, "white");
+    drawText("Pressione qualquer tecla para continuar", 180, 320, 16, "red");
+
+  readKey();
   bool gameOver = false;
   
   while (!gameOver) {
@@ -59,7 +61,7 @@ int main() {
   }
 
   clear("red");
-  drawText("O covid te pegou :(",150, 180, 40, "white");
+  drawText("O SARS-CoV-2 te pegou :(",100, 180, 40, "white");
   drawText("Esse é só um jogo mas na vida real", 130, 220, 24, "white");
   drawText("mantenha o isolamento social e espere a vacina!! ", 70, 250, 24, "white");
   
