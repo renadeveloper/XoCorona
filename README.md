@@ -344,9 +344,11 @@ int main() {
 }
 ```
 
+
 ![](Imagens/Cenas/cena7.png)
 
 Utilizamos o readKey() para que o programa espere até que qualquer letra seja pressionada para continuar o jogo.
+
 
 ## Aumentando a dificuldade
 
