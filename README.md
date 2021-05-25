@@ -3,7 +3,12 @@ layout: page
 title: Xô Corona
 ---
 
+
 # Tutorial: jogo Xô Corona
+
+
+![Alt Text](Imagens/Cenas/gif1.gif)
+
 
 **Autores**: Equipe 4
 
