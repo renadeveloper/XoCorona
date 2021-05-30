@@ -9,9 +9,9 @@ int main() {
   int virusX = 600;
   
   
-  loadImage("background", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/background.png");
-  loadImage("atleta", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/atleta.png");
-  loadImage("virus", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/virus.png");
+  loadImage("background", "https://raw.githubusercontent.com/renaderibeiro/XoCorona/main/Imagens/background.png");
+  loadImage("atleta", "https://raw.githubusercontent.com/renaderibeiro/XoCorona/main/Imagens/atleta.png");
+  loadImage("virus", "https://raw.githubusercontent.com/renaderibeiro/XoCorona/main/Imagens/virus.png");
   waitUntilResourcesLoad();
 
   clear("black");

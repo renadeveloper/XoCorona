@@ -29,9 +29,9 @@ Primeiramente vamos carregar as imagens que vamos usar no jogo: o background, o 
 #include <inge9>
 int main() {
   
-  loadImage("background", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/background.png");
-  loadImage("atleta", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/atleta.png");
-  loadImage("background", "https://raw.githubusercontent.com/igorsouzacarvalho88/GameLabEduc/main/Imagens/virus.png");
+  loadImage("background", "https://raw.githubusercontent.com/renaderibeiro/XoCorona/main/Imagens/background.png");
+  loadImage("atleta", "https://raw.githubusercontent.com/renaderibeiro/XoCorona/main/Imagens/atleta.png");
+  loadImage("virus", "https://raw.githubusercontent.com/renaderibeiro/XoCorona/main/Imagens/virus.png");
   waitUntilResourcesLoad();
   
   drawImage("background", 0, 0);
@@ -358,7 +358,17 @@ Utilizamos o readKey() para que o programa espere até que qualquer letra seja p
 
 ### Exercício: A vacina
 
-Agora é com você! Modifique o código acrescendo vacinas no código (a imagem já consta no repositório!!).
+Agora é com você! Modifique o código acrescendo vacinas no código:
+
+```cpp
+#include <inge9>
+int main() {
+  //...
+  loadImage("vacina", "https://raw.githubusercontent.com/renaderibeiro/XoCorona/main/Imagens/vacina.png");
+  
+  //...
+}
+```
 
 Você deve acrescer a vacina de modo que apareça uma vacina a cada 10 vírus.
 
