@@ -53,6 +53,7 @@ Precisamos criar uma variável chamada `atletaY` para determinar se o atleta est
 #include <inge9>
 int main() {
   int posicao = 0;
+  int atletaY = 0
 
   // código anterior omitido...
   
