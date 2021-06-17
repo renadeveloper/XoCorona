@@ -1,8 +1,4 @@
 ![Generic badge](https://img.shields.io/badge/STATUS-CONCLUÍDO-<COLOR>.svg)
----
-layout: page
-title: Xô Corona
----
 
 
 # Tutorial: jogo Xô Corona
