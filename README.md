@@ -1,3 +1,4 @@
+[![Generic badge](https://img.shields.io/badge/STATUS-CONCLUÍDO-<COLOR>.svg)](https://shields.io/)
 ---
 layout: page
 title: Xô Corona
